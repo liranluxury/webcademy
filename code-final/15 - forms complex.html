@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Формы</title>
+</head>
+
+<body>
+
+    <h1>Формы</h1>
+    <h2>Сложная форма</h2>
+
+    <form>
+        <p>
+            <label for="userName">Имя пользователя:</label>
+            <input id="userName" type="text" placeholder="Введите имя" required>
+        </p>
+        <p>
+            <label for="userEmail">Email:</label>
+            <input id="userEmail" type="email" placeholder="Введите почту">
+        </p>
+        <p>
+            <label for="date">Дата:</label>
+            <input id="date" type="date">
+        </p>
+        <p>
+            <label for="password">Пароль:</label>
+            <input id="password" type="password">
+        </p>
+
+        <h4>Чекбоксы</h4>
+
+        <h5>Выберите питание</h5>
+
+        <input type="checkbox" id="breakfast">
+        <label for="breakfast">Завтрак</label>
+        <br><br>
+
+        <label>
+            <input type="checkbox" id="dinner">
+            Обед
+        </label>
+        <br><br>
+
+        <label>
+            <input type="checkbox" id="dinner">
+            Ужин
+        </label>
+        <br><br><br>
+
+        <h3>Выберите напиток</h3>
+        <input type="radio" id="tea" name="drink">
+        <label for="tea">Чай </label><br>
+
+        <input type="radio" id="coffee" name="drink">
+        <label for="coffee">Кофе </label><br>
+
+        <input type="radio" id="capuccino" name="drink">
+        <label for="capuccino">Капучино</label><br><br>
+
+
+        <label for="select-city">Выберите город</label><br>
+
+        <select id="select-city" name="">
+            <option value="moscow">Москва</option>
+            <option value="kiev">Киев</option>
+            <option value="minsk">Минск</option>
+            <option value="tokio">Токио</option>
+        </select>
+        <br><br>
+
+		<label for="file">Прикрепите файл</label><br>
+        <input type="file" id="file">
+        <br><br>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+
+</body>
+</html>
